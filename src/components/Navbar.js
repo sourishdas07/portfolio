@@ -17,9 +17,13 @@ function Navbar() {
   }, []);
 
   return (
-    <div>
-        
-    </div>
+    <nav className="hidden md:block bg-transparent px-3 py-2 fixed w-full top-left-0 z-50 rounded-3xl blur-effect">
+      <div className="container mx-auto justify-between flex flex-wrap items-center">
+        <div className="hidden md:block">
+          <h1>Hello</h1>
+        </div>
+      </div>
+    </nav>
   );
 }
 
